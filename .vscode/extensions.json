@@ -3,7 +3,6 @@
         "dotnettools.vscodeintellicode-csharp",
         "editorconfig.editorconfig",
         "ms-dotnettools.csdevkit",
-        "ms-vscode-remote.remote-containers",
-        "ryanluker.vscode-coverage-gutters"
+        "ms-vscode-remote.remote-containers"
     ]
 }
