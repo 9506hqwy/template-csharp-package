@@ -48,3 +48,12 @@ chmod +x ~/.local/bin/yq
 
 # Install docfx
 dotnet tool install -g docfx
+
+# Install dotnet diagnostics tools
+dotnet tool install -g dotnet-counters
+dotnet tool install -g dotnet-dump
+dotnet tool install -g dotnet-trace
+dotnet tool install -g dotnet-stack
+# Occur error in latest version.
+# The settings file in the tool's NuGet package is invalid: Settings file 'DotnetToolSettings.xml' was not found in the package.
+dotnet tool install -g dotnet-monitor --version 8.1.2 #

@@ -25,9 +25,40 @@ Execute test code.
 dotnet test
 ```
 
+### Profiling
+
+#### Frame Graph
+
+Use dotnet diagnostic tools.
+
+```sh
+dotnet trace collect --format Chromium -- <Binary Path>
+```
+
+Open *xxx.chromium.json* using Chromium.
+
+1. Open URL *chome://tracing* or *edge://tracing*.
+2. Load *xxx.chromium.json*.
+
+#### Performance Counter
+
+Use dotnet diagnostic tools.
+
+```sh
+dotnet counters collect -- <Binary Path>
+```
+
+### Benchmark
+
+Use [BenchmarkDotNet](https://www.nuget.org/packages/BenchmarkDotNet/) and run benchmrk application.
+
+```sh
+dotnet run -c Release --project <Benchmark Project Path>
+```
+
 ### Updating
 
-Check newer depenency crate.
+Check newer depenency packages.
 
 ```sh
 dotnet list package --outdated
