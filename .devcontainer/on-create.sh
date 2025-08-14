@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Install dependencies
 sudo apt-get update
-sudo apt-get install -y zstd
+sudo apt-get install -y shellcheck zstd
 
 # Configuration PATH
 mkdir -p ~/.local/bin
@@ -56,4 +56,4 @@ dotnet tool install -g dotnet-trace
 dotnet tool install -g dotnet-stack
 # Occur error in latest version.
 # The settings file in the tool's NuGet package is invalid: Settings file 'DotnetToolSettings.xml' was not found in the package.
-dotnet tool install -g dotnet-monitor --version 8.1.2 #
+dotnet tool install -g dotnet-monitor --version 8.1.2

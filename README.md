@@ -50,7 +50,7 @@ dotnet counters collect -- <Binary Path>
 
 ### Benchmark
 
-Use [BenchmarkDotNet](https://www.nuget.org/packages/BenchmarkDotNet/) and run benchmrk application.
+Use [BenchmarkDotNet](https://www.nuget.org/packages/BenchmarkDotNet/) and run benchmark application.
 
 ```sh
 dotnet run -c Release --project <Benchmark Project Path>
