@@ -64,6 +64,12 @@ Check newer depenency packages.
 dotnet list package --outdated
 ```
 
+Check vulnerable packages.
+
+```sh
+dotnet list package --vulnerable
+```
+
 ### License Checking
 
 TODO
