@@ -3,6 +3,7 @@ using BenchmarkDotNet.Running;
 
 namespace Example.Bench;
 
+#pragma warning disable CA1515
 #pragma warning disable CA1822
 public class BenchmarkTarget
 {
@@ -23,8 +24,9 @@ public class BenchmarkTarget
     }
 }
 #pragma warning restore CA1822
+#pragma warning restore CA1515
 
-public static class Program
+internal static class Program
 {
     public static void Main()
     {
