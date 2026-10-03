@@ -4,7 +4,7 @@ This repository provides a template for C# package.
 
 ## Prepare
 
-1. Rename sln file name, and replace `dotnet.defaultSolution` in the *.vscode/settings.json*.
+1. Rename slnx file name, and replace `dotnet.defaultSolution` in the *.vscode/settings.json*.
 2. Remove example package project and test project.
 
 ## Development
