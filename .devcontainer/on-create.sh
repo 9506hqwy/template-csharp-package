@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Install dependencies
 sudo apt-get update -y
-sudo apt-get install -y libxml2-utils shellcheck
+sudo apt-get install -y libxml2-utils mono-complete shellcheck
 
 # Configuration PATH
 mkdir -p ~/.local/bin
